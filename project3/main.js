@@ -78,7 +78,9 @@ document.getElementById("check").onclick = function(){
       }else {
         messagebox.innerHTML=`<p  style="color:white;"><strong>You can only enter numbers between 1 and 100</strong></p>`
       }
-      
+       if(answer == number && remain>1){
+        document.getElementById(hscore).value
+        hscore.innerHTML =+ history.pushState
       
       console.log(history)
 
